@@ -1,0 +1,6 @@
+[submodule "Docker-CodeWeavers_CrossOver-VNC"]
+	path = Docker-CodeWeavers_CrossOver-VNC
+	url = git@github.com:john-shine/Docker-CodeWeavers_CrossOver-VNC.git
+[submodule "docker"]
+	path = docker
+	url = git@github.com:gshang2017/docker.git

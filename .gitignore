@@ -1,0 +1,4 @@
+*.deb
+Docker-CodeWeavers_CrossOver-VNC/
+docker/
+.idea/

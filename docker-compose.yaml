@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  baidunetdisk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: baidunetdisk
+    restart: unless-stopped
+    ports:
+      - "5901:5901" # VNC
+      - "6080:6080" # noVNC
